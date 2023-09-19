@@ -5,5 +5,13 @@
 #The else should read: Else print out "10 is less than 10"
 
 def main():
+    txs = 10
+    txs = int(txs)
+    if int(txs) > 12:
+        print(int(txs), "is greater than 12")
+    elif int(txs) < 11:
+        print(int(txs), "is greater than 11")
+    if int(txs) < 10:
+        print(int(txs), "is less than 10")
 
 main()
