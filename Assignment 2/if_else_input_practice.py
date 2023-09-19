@@ -10,4 +10,18 @@
 #additional instructions: instead of setting our variable to 10, what if we asked the user for the variable and used that value in our comparisons?
 def main():
 
+
+    txs = 10
+    if txs > 12:
+        print(txs, "is greater than 12")
+    elif txs > 11:
+        print(txs, "is greater than 11")
+    if txs < 10:
+        Print(txs, "is less than 10")
+
+
+
+
+
+
 main()
