@@ -12,12 +12,13 @@ def main():
 
 
     txs = 10
-    if txs > 12:
-        print(txs, "is greater than 12")
-    elif txs > 11:
-        print(txs, "is greater than 11")
-    if txs < 10:
-        Print(txs, "is less than 10")
+    txs = input("txs is")
+    if int(txs) > 12:
+        print(int(txs), "is greater than 12")
+    elif int(txs) > 11:
+        print(int(txs), "is greater than 11")
+    if int(txs) < 10:
+        print( int(txs), "is less than 10")
 
 
 
