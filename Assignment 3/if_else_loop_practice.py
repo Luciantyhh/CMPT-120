@@ -11,7 +11,7 @@ else (the number is less than 5)
 '''
 
 def main():
-    t = ["34","22","36","42","55","17","8","9"]
+    t = [34,22,36,42,55,17,8,9]
     x = 0
     while x < 50:
         print(t)
