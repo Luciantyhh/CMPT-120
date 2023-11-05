@@ -1,5 +1,5 @@
 
-def printHello():
+def printhello():
     print("Hello")
     
 def printName(x):
@@ -19,11 +19,10 @@ def smaller(i, j):
         return(0)
     #if j is smaller than i, return j
     #if they're even, return 0
-
 def main():
-    
-#call the printHello function here
-def printhello():
+    print("hello")
+    #recall
+def printHello():
     print("hello")
     #call printName and give it the parameter of your name
 def printname():
@@ -33,7 +32,7 @@ def printname():
     var2= 20
     #What do we put in here to make it work?
     print(addition(var1 + var2))
-    
+
     num1 = int(input("Enter number 1"))
     num2 = int(input("Enter number 2"))
     #what go here?
