@@ -9,5 +9,7 @@ and ofc, if you're stuck, don't hesitate to email
 '''
 def main():
     intInput = int(input("Enter an int (but enter a string to see the error)"))
+    stringInput = input("Enter an int (but enter a string to see the error)")
     
-main()
+
+    main()
