@@ -25,14 +25,40 @@ create a function because this college is a wacky one- every day they generate a
 '''
 
 class student:
-    
-    
+    def __int__(self,name,id_number,year,major,gpa):
+        self.name = name
+        self.id_number = id_number
+        self.year = year
+        self.major = major
+        self.gpa = gpa
+
+    def honorsPG(self):
+        if self.gpa >= 3.5:
+            return("you made it to honors")
+        else:
+            return("you didnt make it")
+
+
     
     
     
     
 def main():
-    #create three students and check if they get free lunch and if they qualify for honors
-    
-    
+
+    list = [1234,1040,8937]
+    import random
+
+    print(list)
+    random_num = random.choice(list)
+    print(random_num)
+
+    if random_num == 1040:
+        print("Winner")
+    else:
+        print("Loser")
+
+
+
+
+
 main()
