@@ -10,7 +10,10 @@ class Employee:
         self.department = department
         
 class Cake:
-    #can you fill out the rest of this for me? im dumb
+    def __int__(self,cake_flavor,cake_frosting):
+        self.cake_flavor = cake_flavor
+        self.cake_frosting = cake_frosting
+     #can you fill out the rest of this for me? im dumb
     #the cake needs to have the cake flavor and cake frosting stored
 
 class Cat:
@@ -33,20 +36,24 @@ class Car:
         self.color = color
         
     #create your own function! what do you want it to do?
-    
+class shoes:
+    def __init__(self, brand, size, color):
+        self.size = size
+        self.brand = brand
+        self.color = color
    
 def main():
     #fill this one out with a dog's name and age.. can be your dog, friend's dog, etc
-    newDog = Dog(? , ?)
+    dog1 = Dog("draco","4")
     print(dog1.name, dog1.age)
-    
+
     #and what about a new employee
-    newEmployee =
+    Employee1 = Employee("john","28", "accounting")
     #how would we print out each of the variables from newEmployee?
-    print()
+    print(Employee1.name, Employee1.idNumber, Employee1.department)
     
     #now create and print out a cake you make
-    
+
     
     
     #and now create another cake and print it out
@@ -54,14 +61,14 @@ def main():
     
     
     #create a cat!
-    cat1 = Cat()
+    cat1 = Cat("mike","5","long")
     #create another cat!
-    
+    cat2 = Cat("kyle","3","short")
     #What would we put here to print out the result of breedGuess for cat1?
-    print(cat1.?)
-    
+    print(cat1.name, cat1.age, cat1.fur_length)
+    print(cat2.name, cat2.age, cat1.fur_length)
     #create a car!
-    
+    car1 = Car("porsche", "2013", "green")
     #Now print out the function you made for car :)
-
+    print(car1.model, car1.year, car1.color)
 main()
